@@ -1,0 +1,46 @@
+{
+  "things" : {
+    "method": "GET",
+    "url": "http://localhost:8080/things",
+    "dataType" : "list",
+    "filterField": "identifier",
+    "sortField": "identifier",
+    "headers": [
+      {
+        "field": "identifier",
+        "display": "Identifier",
+        "width": 10
+      },
+      {
+        "field": "description",
+        "display": "Description",
+        "width": 80
+      },
+      {
+        "field": "value",
+        "display": "Value",
+        "width": 10
+      }
+    ]
+  },
+  "exchangeRates" : {
+    "method" : "GET",
+    "url" : "https://api.fixer.io/latest",
+    "responseDataPath" : "rates",
+    "dataType" : "map",
+    "filterField" : "identifier",
+    "sortField" : "identifier",
+    "headers" : [
+      {
+        "field": "identifier",
+        "display": "Currency",
+        "width": 10
+      },
+      {
+        "field": "value",
+        "display": "Rate",
+        "width": 10
+      }
+    ]
+  }
+}
