@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>List of Things</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script data-main="app" src="lib/require.js"></script>
+    <link rel="stylesheet" href="filterofthings.css">
+</head>
+<body>
+    <p>List of Things</p>
+    <p class="instructions">Enter your search criteria below</p>
+    <form id="searchForm">
+        <label>
+            Search:
+            <input type="text" name="filter" />
+        </label>
+        <input type="submit" value="Search" />
+    </form>
+    <div id="errors" class="errors" hidden></div>
+    <div id="verticalSpacer">&nbsp;</div>
+    <div id="contents"></div>
+</body>
+</html>

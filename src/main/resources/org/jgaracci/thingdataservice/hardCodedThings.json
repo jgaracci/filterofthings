@@ -1,0 +1,20 @@
+[
+  {
+    "uuid" : "B",
+    "identifier" : "Banana",
+    "description" : "A long yellow fruit, full of potassium; devoured to prevent cramps",
+    "value" : 1.0
+  },
+  {
+    "uuid" : "A",
+    "identifier" : "Apple",
+    "description" : "A proud fruit, held together by tough fibers, until it rots",
+    "value" : 2.0
+  },
+  {
+    "uuid" : "C",
+    "identifier" : "Cherry",
+    "description" : "A small red berry, full of flavor; placed on top",
+    "value" : 0.25
+  }
+]

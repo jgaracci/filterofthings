@@ -1,0 +1,42 @@
+div.verticalSpacer {
+    height: 10px;
+}
+
+div.table {
+    display: table;
+    width: 100%;
+}
+
+div.headerRow {
+    display: table-header-group;
+    background: darkblue;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.row {
+    display: table-header-group;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+}
+
+div[class*="col-"] {
+    display: table-cell;
+    font-size: 2em;
+    border-width: 1px;
+    border-style: solid;
+}
+
+p.instructions {
+    font-size : 0.8em;
+}
+
+div.errors {
+    margin: 6px 6px 6px 6px;
+    color: red;
+    font-weight: bold;
+}
